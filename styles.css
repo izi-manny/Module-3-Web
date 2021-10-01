@@ -44,3 +44,22 @@ img {
 li {
 	line-height: 1.5rem;
 }
+
+.large-yellow-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	 text-align: center;
+	 border-radius: 4px;
+	background-color: rgb(255, 233, 30);
+	/* box-shadow: inset 0 0 0 0 rgb(255, 196, 3); */
+	transition: ease-out 0.3s;
+	font-size: 1.5rem;
+	outline: none;
+	margin: 5px;
+}
+
+.large-yellow-button:hover {
+	cursor: pointer;
+	box-shadow: inset 300px 0 0 0 rgb(255, 255, 255);
+}
