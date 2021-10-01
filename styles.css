@@ -36,3 +36,11 @@ input {
 img {
 	max-width: 300px;
 }
+
+.heading {
+	font-family: 'Philosopher', sans-serif;
+}
+
+li {
+	line-height: 1.5rem;
+}
